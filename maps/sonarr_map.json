@@ -1,0 +1,27 @@
+[
+    {
+        "title": "JUJUTSU KAISEN",
+        "target_profile_id": 13,
+        "enabled": true
+    },
+    {
+        "title": "FIRE FORCE",
+        "target_profile_id": 13,
+        "enabled": true
+    },
+    {
+        "title": "My Hero Academia: Vigilantes",
+        "target_profile_id": 13,
+        "enabled": true
+    },
+    {
+        "title": "Tojima Wants to Be a Kamen Rider",
+        "target_profile_id": 13,
+        "enabled": true
+    },
+    {
+        "title": "Fate/strange Fake",
+        "target_profile_id": 13,
+        "enabled": true
+    }
+]
