@@ -1,0 +1,9 @@
+Flask
+gunicorn
+spotipy
+jellyfin-sdk
+pyjwt
+cryptography
+flask-cors
+requests
+musicbrainzngs
