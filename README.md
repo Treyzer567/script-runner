@@ -1,6 +1,6 @@
 # script-runner
 
-A lightweight Flask API that runs Python media mover scripts on demand and reports their status. Designed to be triggered by the [Script Runner UI](https://github.com/Treyzer567/landing-page) hosted on the landing page, which is embedded as an iframe panel in Homarr.
+A lightweight Flask API that runs Python media mover scripts on demand and reports their status. Designed to be triggered by the [Script Runner UI](https://github.com/Treyzer567/landing-page) hosted on the landing page.
 
 ---
 
@@ -51,5 +51,15 @@ Source and destination media paths also need to be mounted depending on which sc
 
 | Repo | Description |
 |------|-------------|
-| [landing-page-simple](https://github.com/Treyzer567/landing-page) | Frontend hub — hosts the Script Runner UI iframe |
+| [landing-page](https://github.com/Treyzer567/landing-page) | Frontend hub — hosts the Script Runner UI iframe |
 | [scripts](https://github.com/Treyzer567/scripts) | The actual Python mover scripts this runner executes |
+
+---
+
+## External Projects
+
+| Project | Description |
+|---------|-------------|
+| [Sonarr](https://github.com/Sonarr/Sonarr) | TV series collection manager — env vars are passed through to the mover scripts |
+| [Booklore](https://github.com/booklore-app/booklore) | Self-hosted book server - destination for manga, webcomic and novels |
+| [Jellyfin](https://github.com/jellyfin/jellyfin) | Open source media server — destination for moved media |
